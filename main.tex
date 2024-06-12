@@ -1,7 +1,7 @@
 %!TeX program = xelatex
 \documentclass[12pt,hyperref,a4paper,UTF8]{ctexart}
 \usepackage{SWPUReport}
-
+\usepackage{enumitem}
 %%-------------------------------正文开始---------------------------%%
 \begin{document}
 
@@ -34,6 +34,12 @@
 
 编译方式：\verb|xelatex -> bibtex -> xelatex*2|
 
+对于texstdio：\verb|F6 -> F8 -> F6*2|
+
+\begin{itemize}[leftmargin=*,labelsep=5.8mm,labelindent=\parindent]
+	\item \texttt{F6} 编译tex
+	\item \texttt{F8} 编译参考文献bib
+\end{itemize}
 
 默认模板文件由以下四部分组成：
 \begin{itemize}

@@ -4,3 +4,5 @@
 main.pdf
 main.synctex.gz
 *.aux
+*.bbl
+*.blg
