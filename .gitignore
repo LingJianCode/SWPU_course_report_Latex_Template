@@ -1,6 +1,6 @@
 *.log
 *.out
 *.toc
-*.pdf
+main.pdf
 main.synctex.gz
 *.aux
