@@ -14,7 +14,7 @@
 
 - 封面
 
-  ![cover](./figures/cover.png)
+  ![cover](./figures/report_cover.png)
 
 ## 模板下载
 
