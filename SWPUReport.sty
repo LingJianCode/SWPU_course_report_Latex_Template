@@ -135,3 +135,45 @@
 \maketitle
 }
 
+\def\groupcover{
+	%https://github.com/AlmostGPH/SDU-Latex-Template-for-Document
+	\begin{titlepage}                                               %用于多人报告的封面 For multiple report
+		\centering
+		\vspace{1cm}
+		\includegraphics[width=0.5\textwidth]{figures/swpu_logo_rec.pdf} % 插入你的图片，调整文件名和路径     Insert your picture, adjust the file name and path
+		\par\vspace{1cm}
+		{ \heiti \Huge \textbf{{XXXX课程报告}} \par
+			\vspace{1cm} 
+			\heiti \Large {\underline{XXXXXX进展调研}}    
+			\vspace{3cm} }%标题
+		
+		\vspace{1cm}
+		% 组员信息  Group information
+		\begin{center}
+			\centering
+			\vspace{0.5cm}
+			\textbf{组员1：} \dlmu[4cm]{XXX} \quad \textbf{学号：} \dlmu[4cm]{202300000000} \\
+			\vspace{0.5cm}
+			\textbf{组员2：} \dlmu[4cm]{XXX} \quad \textbf{学号：} \dlmu[4cm]{202300000000} \\
+			\vspace{0.5cm}
+			\textbf{组员3：} \dlmu[4cm]{XXX} \quad \textbf{学号：} \dlmu[4cm]{202300000000} \\
+			
+		\end{center}
+		
+		% 分工情况  Cooperation
+		\vspace{2cm}
+		\section*{分工情况}
+		\addcontentsline{toc}{section}{分工情况}
+		
+		\begin{center}
+			\begin{tabular}{l}
+				组员1 XXX完成的部分：完成实验报告模板的编写 \\
+				组员2 XXX完成的部分：完成实验报告模板的编写 \\
+				组员3 XXX完成的部分：完成实验报告模板的编写 \\
+			\end{tabular}
+		\end{center}
+		
+		\vfill
+		\today % 日期   Date
+	\end{titlepage}
+}

@@ -12,9 +12,13 @@
 ## 介绍
 - 用于西南石油(SWPU)课程大作业/结课汇报的通用简易Latex模板，基于[国科大模板](https://github.com/jweihe/UCAS_Latex_Template)修改学校logo等信息
 
-- 封面
+- 单人封面
 
-  ![cover](./figures/report_cover.png)
+![cover](./figures/report_cover.png)
+
+- 多人封面
+
+![cover](./figures/report_cover_group.png)
 
 ## 模板下载
 
